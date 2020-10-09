@@ -13,5 +13,8 @@ It was made using Node.js with MongoDB Atlas as the database.
 ![HabitDrive Post](https://user-images.githubusercontent.com/56524239/95523101-c3884280-099b-11eb-95aa-bb0cf755eb57.png)
 
 
-My motivation to create this platform was to exercise my new skills in Node.js and MongoDB I had recently learned. This was also my first web app deployed
-on Heroku. 
+I created this platform to exercise my new skills in Node.js and MongoDB I had recently learned. This was also my first web app deployed
+on Heroku.
+
+You've read this far, check it out:
+https://young-basin-58317.herokuapp.com/
