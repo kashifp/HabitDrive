@@ -1,0 +1,186 @@
+/* Basic HTML Elements */
+
+footer {
+    text-align: center;
+    height: 40px;
+    background-color: rgb(160, 77, 228);
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+/* Id Elements */
+
+#home-intro {
+    background-color: rgb(204, 143, 204);
+    color: white;
+    padding-top: 100px;
+}
+
+#why-hb {
+    padding-top: 20px;
+    text-align: center;
+    color: gray;
+}
+
+#why-hb hr {
+    border-top: 1px solid;
+    width: 80%;
+}
+
+/* Class Elements */
+
+.heading {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(160, 77, 228);
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-top: 15px;
+    
+    
+}
+
+.heading h1,h4 {
+    cursor: pointer;
+}
+
+.home-message {
+    text-align: center;
+}
+
+.home-message hr {
+    border-top: 1px solid white;
+    width: 50%;
+}
+
+.home-fire {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    margin-left: 60px;
+    padding-bottom: 70px;
+}
+
+.home-buttons {
+    padding-top: 20px;
+    padding-right: 20px;
+    display: inline-flex;
+}
+
+.home-buttons button {
+    margin-left: 20px;
+}
+
+.home-login {
+    margin-right: 15px;
+}
+
+.head-links {
+    padding-right: 10px;
+    display: inline-flex;
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+.head-link {
+    margin-left: 20px;
+}
+
+.log-to {
+    position: relative;
+    text-align: center;
+}
+
+.text-center {
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #d2a6dd;
+    margin-top: 80px;
+}
+  
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.form-signin .checkbox {
+    font-weight: 400;
+}
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.entries-format {
+    text-align: center;
+}
+
+.posts-format {
+    text-align: center;
+}
+
+.post-format {
+    max-width: 500px;
+    height: auto;
+    max-height: 150px;
+    background-color: rgba(167, 90, 221, 0.74);
+    border-radius: 4%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    margin-bottom: 25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: left;
+    position: relative;
+    left: 30%;
+}
+
+.post-format h3 {
+    border-color: white;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+
+.new-post {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.new-post input{
+    margin-top: 15px;
+    margin-bottom: 350px;
+    font-size: 20px;
+}
+
+.entry-back {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 26%, rgba(250,126,180,1) 56%,
+     rgba(148,187,233,1) 100%);
+    color: white;
+}

@@ -1,0 +1,15 @@
+<%- include('header'); -%>
+
+<body>
+
+    <%- include('heading'); -%>
+
+    <div class="new-post">
+        <form action="/create" method="post">
+            <h2>Create New Post</h2>
+            <input type="text" name="entry" maxlength="200" autocomplete="off">
+            <button class="btn btn-warning" type="submit">Post</button>
+        </form>
+    </div>
+
+    <%- include('footer'); -%>

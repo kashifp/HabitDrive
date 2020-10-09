@@ -1,0 +1,61 @@
+<%- include('header'); -%>
+
+<body>
+
+    <%- include('heading'); -%>
+
+    <section id="home-intro">
+        <div class="container">
+            <div class="row">
+                <div class="col home-message">
+                    <h3>Build good habits</h3>
+                    <h3>Break bad habits</h3>
+                    <hr>
+                    <h4>Find motivation</h4>
+                    <div class="home-buttons">
+                        <% if (!signedIn) { %>
+                        <button onclick="location.href='/login'" type="button"
+                            class="btn btn-lg btn-outline-light">Login</button>
+                        <% } else { %>
+                        <form action="/" method="post">
+                            <button class="btn btn-lg btn-outline-light" type="submit">Logout</button>
+                        </form>
+                        <% } %>
+                        <button onclick="location.href='/signup'" type="button" class="btn btn-lg btn-warning">Get
+                            Started</button>
+                    </div>
+                </div>
+                <div class="col">
+                    <img class="home-fire" src="https://storage.needpix.com/rsynced_images/campfire-310430_1280.png"
+                        alt="dumbbell-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="why-hb">
+        <h3>Why Use HabitDrive?</h3>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Start Working Out</h5>
+                    <h5>Follow Consistent Study Habits</h5>
+                    <h5>Read books more often</h5>
+                </div>
+                <div class="col">
+                    <h5>Stop Eating Unhealthy Foods</h5>
+                    <h5>Quit Videogames</h5>
+                    <h5>Reduce Coffee Consumption</h5>
+                </div>
+                <div class="col">
+                    <h5>Make Friends</h5>
+                    <h5>Learn the Habits of Other People</h5>
+                    <h5>Motivate Your Friends</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <%- include('footer'); -%>

@@ -1,0 +1,12 @@
+<div class="heading">
+    <h1 onclick="location.href='/'">HabitDrive</h1>
+    <div class="head-links">
+        <% if (signedIn) { %>
+        <h4 class="head-link" onclick="location.href='/entries'">Feed</h4>
+        <h4 class="head-link" onclick="location.href='/create'">Create</h4>
+        <h4 class="head-link"><%= currentUser %></h4>
+        <% } else { %>
+        <h4 class="head-link" onclick="location.href='/login'">Login</h4>
+        <% } %>
+    </div>
+</div>

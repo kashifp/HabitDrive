@@ -1,0 +1,20 @@
+<%- include('header'); -%>
+
+<body>
+
+    <div class="heading">
+        <h1 onclick="location.href='/'">HabitDrive</h1>
+    </div>
+
+    <div class="text-center" method="post">
+        <form method="post" action="/signup" class="form-signin">
+            <h1 class="h3 mb-3 font-weight-normal">Sign up</h1>
+            <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required
+                autofocus>
+            <input type="text" name="name" class="form-control" maxlength="10" placeholder="Name">
+            <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password"
+                required>
+            <button class="btn btn-lg btn-warning btn-block" type="submit">Sign up!</button>
+            <p class="mt-5 mb-3 text-muted">Kashif Peshimam 2020</p>
+        </form>
+    </div>

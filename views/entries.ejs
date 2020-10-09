@@ -1,0 +1,27 @@
+<%- include('header'); -%>
+
+<body>
+    <div class="entry-back">
+        
+        <%- include('heading'); -%>
+
+        <div class="entries-format">
+            <h1>Posts</h1>
+            <% if (signedIn) { %>
+            <div class="posts-format">
+                <% results.forEach(post => { %>
+                <div class="post-format">
+                    <h3><%= post._doc.name %></h3>
+                    <h5><%= post._doc.post %></h5>
+
+                </div>
+                <% }); %>
+            </div>
+            <% }  else { %>
+            <h1>No posts for you...</h1>
+            <% } %>
+        </div>
+
+        <%- include('footer'); -%>
+
+    </div>
