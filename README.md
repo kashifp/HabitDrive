@@ -16,5 +16,5 @@ It was made using Node.js with MongoDB Atlas as the database.
 I created this platform to exercise my new skills in Node.js and MongoDB I had recently learned. This was also my first web app deployed
 on Heroku.
 
-You've read this far, check it out:
-https://young-basin-58317.herokuapp.com/
+Check it out!
+https://habitdrive.herokuapp.com/
